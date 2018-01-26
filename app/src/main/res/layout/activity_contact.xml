@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zubair.bdspucit.ContactActivity">
+    <RelativeLayout
+        android:id="@+id/activity_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff5722">
+
+
+        <TextView
+            android:text="This app is designed by the students of csf14a PUCIT to make an easy access of blood for the people who need blood. The purpose is to serve humanity. You can conntact us at 0306-4622264  or you may send us message."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="21dp"
+
+            android:textColor="#fff"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:fontFamily="monospace"
+            android:id="@+id/AboutUsCotext"
+            />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

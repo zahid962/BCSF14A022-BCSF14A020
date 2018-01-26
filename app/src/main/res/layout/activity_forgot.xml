@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zubair.bdspucit.ForgotActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/recoveryimage"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:text="Password Recovery"
+            android:textSize="25dip"
+            android:layout_centerInParent="true"
+
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="UserName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:id="@+id/UserNamef"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Favorite Place"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/favPlace"
+            android:layout_below="@+id/UserNamef"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="New Password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/newPass"
+            android:layout_below="@+id/favPlace"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            />
+        <Button
+            android:text="Reset Password"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:layout_height="70dip"
+            android:layout_width="wrap_content"
+            android:id="@+id/ResetPassButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

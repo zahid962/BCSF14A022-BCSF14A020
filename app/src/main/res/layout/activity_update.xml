@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zubair.bdspucit.UpdateActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#757575">
+
+        <TextView
+            android:text="Update Info"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:textColor="#bdbdbd"
+            android:id="@+id/textView"
+
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Edit Name"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/editName"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            />
+
+        <EditText
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textEmailAddress"
+            android:gravity="center"
+            android:hint="Edit Email"
+            android:ems="10"
+            android:layout_below="@+id/editName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/editEmail" />
+
+        <EditText
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="phone"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_below="@+id/editEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:hint="Edit Phone #"
+            android:id="@+id/editPhone" />
+        <EditText
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_below="@+id/editPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:hint="Blood Group"
+            android:id="@+id/editAddress" />
+        <EditText
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="datetime"
+            android:gravity="center"
+            android:ems="10"
+            android:layout_below="@+id/editAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:hint="Edit Date Of Birth"
+            android:id="@+id/editDOB" />
+
+        <EditText
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            android:textColor="#000"
+            android:background="#ddddd3"
+            android:inputType="number"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Edit Weight"
+            android:layout_marginTop="17dp"
+            android:id="@+id/editWeight"
+            android:layout_below="@+id/editDOB"
+            android:layout_alignStart="@+id/editDOB" />
+
+
+        <Button
+            android:text="Update"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:layout_height="70dip"
+            android:layout_width="fill_parent"
+            android:id="@+id/UpdateButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

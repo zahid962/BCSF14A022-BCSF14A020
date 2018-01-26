@@ -1,0 +1,11 @@
+This project has been created to facilitate blood donation Societies. The Project is Created by 
+
+Zahid Bashir 
+Roll Number BCSF14A020
+and
+Hamza Khaliq BCSF14A022
+
+For runnig the app for first time we need to sign up with username admin and password admin , the login will only be
+run by username admin and password admin. 
+
+  

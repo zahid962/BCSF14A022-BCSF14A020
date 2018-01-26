@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zubair.bdspucit.ProfileActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profileA">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:background="@mipmap/profile"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/profilepic" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilepic"
+            android:layout_marginTop="25dp"
+            android:id="@+id/pName"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Name:                "
+                android:textSize="16dp"
+                android:id="@+id/nameTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/nameTemp"
+                android:text="Zubair"
+                android:textSize="16dp"
+                android:id="@+id/myname"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pName"
+            android:id="@+id/pUsername">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Username:        "
+                android:textSize="16dp"
+                android:id="@+id/usernameTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/usernameTemp"
+                android:text="zubiBhai"
+                android:textSize="16dp"
+                android:id="@+id/myusername"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pUsername"
+            android:id="@+id/pBlood">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Blood Group:    "
+                android:textSize="16dp"
+                android:id="@+id/bloodTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bloodTemp"
+                android:text="B+ve"
+                android:textSize="16dp"
+                android:id="@+id/myblood"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pBlood"
+            android:id="@+id/pdob">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Date of Birth:  "
+                android:textSize="16dp"
+                android:id="@+id/dobTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dobTemp"
+                android:textSize="16dp"
+                android:text="12/22/1995"
+                android:id="@+id/mydob"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pdob"
+            android:id="@+id/pWeight">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Weight:             "
+                android:textSize="16dp"
+                android:id="@+id/weightTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/weightTemp"
+                android:text="68kg"
+                android:textSize="16dp"
+                android:id="@+id/myweight"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pWeight"
+            android:id="@+id/pEmail">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Email:                "
+                android:textSize="16dp"
+                android:id="@+id/emailTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/emailTemp"
+                android:text="bcsf14m029@pucit.edu.pk"
+                android:textSize="16dp"
+                android:id="@+id/myemail"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pEmail"
+            android:id="@+id/pPhone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Phone#             "
+                android:textSize="16dp"
+                android:id="@+id/phoneTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/phoneTemp"
+                android:text="03334565575"
+                android:textSize="16dp"
+                android:id="@+id/myPhone"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pPhone"
+            android:id="@+id/pAddress">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="          Address:           "
+                android:textSize="16dp"
+                android:id="@+id/addTemp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/addTemp"
+                android:text="Faisalabad"
+                android:textSize="16dp"
+                android:id="@+id/myadd"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
